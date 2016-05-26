@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="building">
+        <item>서울서예박물관</item>
+        <item>음악당</item>
+        <item>오페라하우스</item>
+        <item>한가람디자인미술관</item>
+        <item>700(홍보관)</item>
+        <item>야외무대</item>
+        <item>비타민스테이션</item>
+        <item>한가람미술관</item>
+    </string-array>
+
+</resources>

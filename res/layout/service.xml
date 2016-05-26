@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnStart"
+        android:layout_alignBottom="@+id/btnStart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="46dp"
+        android:text="Stop Service" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_toLeftOf="@+id/btnStop"
+        android:text="Start Service" />
+
+    <TextView
+        android:id="@+id/textline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Service 기능을 확인하기 위한 화면입니다." />
+
+    <ImageView
+        android:id="@+id/imgService"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/textline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/sac_ci" />
+
+</RelativeLayout>

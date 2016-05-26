@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <CommunicationClass
+        name="com.guideapp.kjsong.ListViewActivity.ListViewItemLongClickListener"
+        x="506" y="240"/>
+    <CommunicationClass name="com.guideapp.kjsong.DBAdapter" x="627" y="139"/>
+    <CommunicationClass name="com.guideapp.kjsong.DBHelper" x="327" y="368"/>
+    <CommunicationClass name="com.guideapp.kjsong.MyService" x="325" y="281"/>
+    <CommunicationClass name="com.guideapp.kjsong.ServiceActivity"
+        x="323" y="200"/>
+    <CommunicationClass
+        name="com.guideapp.kjsong.ListViewActivity.CustomAdapter"
+        x="354" y="102"/>
+    <CommunicationClass name="com.guideapp.kjsong.StartActivity" x="111" y="403"/>
+    <CommunicationClass name="com.guideapp.kjsong.PopupActivity" x="110" y="312"/>
+    <CommunicationClass name="com.guideapp.kjsong.ListViewActivity"
+        x="111" y="228"/>
+    <CommunicationClass name="com.guideapp.kjsong.CursorAdapterActivity"
+        x="113" y="150">
+        <Association destinationClassName="com.guideapp.kjsong.DBHelper"
+            endpointName="dbHelper" kind="Simple"/>
+    </CommunicationClass>
+    <CommunicationClass name="com.guideapp.kjsong.MainActivity" x="115" y="75"/>
+</ClassDiagram>

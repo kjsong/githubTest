@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dim"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:weightSum="10" >
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/popup_header"
+                android:gravity="center"
+                android:text="서울서예박물관"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/Popup_Textsize" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:scaleType="fitCenter"
+                android:src="@drawable/image_1" />
+
+            <TextView
+                android:id="@+id/txtTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="현재 리모델링 공사중입니다."
+                android:textColor="#ff4e00"
+                android:textSize="@dimen/Popup_Textsize" />
+
+            <TextView
+                android:id="@+id/txtContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:padding="5dp"
+                android:text="서울서예관의 4층에는 최대 140석 규모의 컨소시엄 챔프홀(CHAMP Hall)과 미디어실(Media Room)이 2015년 11월 18일 먼저 공개되었습니다. 고용노동부의 국가인적자원개발컨소시엄사업의 시설비 지원을 받아 공사를 진행한 4층의 챔프홀의 CHAMP는 국가인적자원개발컨소시엄(Consortium for HRD Ability Magnified Program)의 약자로 현재 문화예술계 종사자의 전문성 함양을 목적으로 (문화예술 전문인력 향상과정)이 진행되고 있습니다."
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/Popup_Textsize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="5" >
+
+                <ImageView
+                    android:id="@+id/btnYes"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_yes" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
